@@ -1,0 +1,107 @@
+
+/* Services */
+
+.baground {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    border-radius: 0px 0px 12px 12px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+}
+
+.servis {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24A3FF;
+}
+
+.servis-img {
+    background-image: url(../img/right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 15px;
+}
+
+a .servis {
+    margin-bottom: 10px;
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 60px;
+}
+
+/* Services-cards */
+
+.lacatoin {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.services-cards {
+    width: 260px;
+    margin-bottom: 110px;
+}
+
+
+.services-cards-img {
+    width: 92px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 22px 22px;
+    margin-bottom: 30px;
+}
+
+.services-cards-h {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #24A3FF;
+    margin-bottom: 15px;
+}
+
+.services-cards-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+} 
+
+.one {
+    background-image: url(../img/Ecommerce.svg);
+}
+
+.two {
+    background-image: url(../img/Support.svg);
+}
+
+.three {
+    background-image: url(../img/Coprorate.svg);
+}
+
+.four {
+    background-image: url(../img/Trust.svg);
+
+}
+
+.five {
+    background-image: url(../img/Protection.svg);
+}
+
+.six {
+    background-image: url(../img/Court.svg);
+}

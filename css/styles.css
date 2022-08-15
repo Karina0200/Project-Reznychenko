@@ -1,11 +1,199 @@
-h1 {
-  color: red;
+* {
+  box-sizing: border-box;
 }
 
-h1 {
-  background-color: aqua;
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1 {
-  text-decoration: line-through;
+.wrapper {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* Services */
+.baground {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  border-radius: 0px 0px 12px 12px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin-bottom: 30px;
+}
+
+.servis {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+
+.servis-img {
+  background-image: url(../img/right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 15px;
+}
+
+a .servis {
+  margin-bottom: 10px;
+}
+
+.caption {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 60px;
+}
+
+/* Services-cards */
+.lacatoin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-cards {
+  width: 260px;
+  margin-bottom: 110px;
+}
+
+.services-cards-img {
+  width: 92px;
+  height: 92px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  padding: 22px 22px;
+  margin-bottom: 30px;
+}
+
+.services-cards-h {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #24A3FF;
+  margin-bottom: 15px;
+}
+
+.services-cards-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.one {
+  background-image: url(../img/Ecommerce.svg);
+}
+
+.two {
+  background-image: url(../img/Support.svg);
+}
+
+.three {
+  background-image: url(../img/Coprorate.svg);
+}
+
+.four {
+  background-image: url(../img/Trust.svg);
+}
+
+.five {
+  background-image: url(../img/Protection.svg);
+}
+
+.six {
+  background-image: url(../img/Court.svg);
+}
+
+/* partners */
+main {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.partners-lacation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fon {
+  display: block;
+  width: 255px;
+  height: 120px;
+}
+
+.fon-color-0 {
+  background-color: #1C4280;
+  padding: 36px 19px;
+}
+
+.fon-color-1 {
+  background-color: #143646;
+  padding: 44px 30px;
+}
+
+.fon-color-2 {
+  background-color: #FD9339;
+  padding: 40px 40px;
+}
+
+.fon-color-3 {
+  background-color: #9E4DC3;
+  padding: 40px 40px;
+}
+
+.fon-color-4 {
+  background-color: #FD9339;
+  padding: 40px 40px;
+}
+
+.fon-color-5 {
+  background-color: #E2E2E4;
+  padding: 35px 30px;
+}
+
+.fon-color-6 {
+  background-color: #C71C36;
+  padding: 30px 60px;
+}
+
+.fon-color-7 {
+  background-color: #DCF3F9;
+  padding: 22px 55px;
+}
+
+.fon-color-8 {
+  background-color: #EAEAEA;
+  padding: 30px 35px;
+}
+
+.fon-color-9 {
+  background-color: #282240;
+  padding: 40px 35px;
+}
+
+.fon-color-10 {
+  background-color: #1D4568;
+  padding: 35px 30px;
+}
+
+.fon-color-11 {
+  background-color: #000000;
+  padding: 10px 50px;
 }
