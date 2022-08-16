@@ -17,3 +17,60 @@ a {
     text-decoration: none;
     text-transform: none;
 }
+
+header {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+@media (max-width: 375px) {
+    .lacatoin, .partners-lacation {
+        flex-direction: column;
+    }    
+    .wrapper {
+        width: 100%;
+    }
+    a.fon {
+        width: 100%;
+    }
+    header {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    }
+    header {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    a.fon {
+        width: 100%;
+    }
+    div.services-cards {
+        width: 294px;
+    }
+}
+
+@media (width: 1024px) {
+    p.services-cards-p {
+        width: 261px;
+    }
+}
+
+
+
+@media (min-width: 1920px) {
+    wrapper {
+        width: 1600px;
+    }
+    a.fon {
+        width: 25%;
+    }
+    header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
