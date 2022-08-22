@@ -7,20 +7,38 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+}
+
 .wrapper {
-    width: 1024px;
+    width: 88%;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 a {
     text-decoration: none;
     text-transform: none;
 }
 
-header {
-    padding-left: 60px;
-    padding-right: 60px;
+
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 88%;
+    }
+
+    div.services-cards {
+        width: 294px;
+    }
+    .wrapper-partners {
+        width: 100%;
+    }
 }
 
 @media (max-width: 375px) {
@@ -28,49 +46,57 @@ header {
         flex-direction: column;
     }    
     .wrapper {
-        width: 100%;
+        width: 84%;
     }
+    .wrapper-partners {
+        width: 100%;
+    }  
     a.fon {
         width: 100%;
     }
-    header {
-        padding-left: 30px;
+    a.fon-color-6, a.fon-color-7, a.fon-color-8, a.fon-color-9, a.fon-color-10, a.fon-color-11 {
+        display: none;
     }
 }
 
-@media (max-width: 768px) {
-    .wrapper {
-        width: 100%;
-    }
-    header {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    a.fon {
-        width: 100%;
-    }
-    div.services-cards {
-        width: 294px;
-    }
-}
 
 @media (width: 1024px) {
     p.services-cards-p {
         width: 261px;
     }
+    
 }
 
 
 
 @media (min-width: 1920px) {
-    wrapper {
+    .wrapper {
         width: 1600px;
     }
-    a.fon {
-        width: 25%;
+    div.services-cards {
+        width: 493.33px;
+        margin-bottom: 60px;
     }
-    header {
-        padding-left: 0px;
-        padding-right: 0px;
+    .wrapper-partners {
+        width: 1720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a.fon {
+        display: block;
+        width: 430px;
+        height: 120px;
+    }
+    .fon-color-0 {
+        border-radius: 20px 0 0 0;
+    }
+    .fon-color-3 {
+        border-radius: 0 20px 0 0;
+    }
+    .fon-color-8 {
+        border-radius: 0  0 0 20px;
+    }
+    .fon-color-11 {
+        border-radius: 0  0 20px 0;
     }
 }

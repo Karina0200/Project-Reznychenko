@@ -2,11 +2,38 @@
 /* Services */
 
 .baground {
+
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     border-radius: 0px 0px 12px 12px;
-    padding-top: 50px;
-    padding-bottom: 60px;
-    margin-bottom: 30px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+
+
+.baground::before {
+    content: "";
+    position: absolute;
+left: 20px;
+right: 20px;
+top: 0%;
+bottom: -0.45%;
+background: #CACADB;
+border-radius: 0px 0px 12px 12px;
+    z-index: -1;
+}
+
+.baground::after {
+    content: "";
+    position: absolute;
+left: 40px;
+right: 40px;
+top: 0%;
+bottom: -0.89%;
+background: #E7E7F2;
+border-radius: 0px 0px 12px 12px;
+    z-index: -2;
 }
 
 .servis {
@@ -50,8 +77,8 @@ justify-content: space-between;
 }
 
 .services-cards {
-    width: 33%;
-    margin-bottom: 110px;
+    width: 261.33px;
+    margin-bottom: 60px;
 }
 
 
@@ -75,7 +102,7 @@ justify-content: space-between;
 }
 
 .services-cards-p {
-    width: auto;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
